@@ -1,6 +1,6 @@
 # Refinery CMS Image Slideshows
 
-Image Slideshows engine for [Refinery CMS](http://refinerycms.com) allows you to display multiple slideshows.
+Image Slideshows engine for [Refinery CMS 2.1.0](http://refinerycms.com) allows you to display multiple slideshows.
 
 
 ![Refinery Image Slideshows](https://dl.dropbox.com/u/80562357/Upload/gem_refinerycms_image_slideshows.png)
@@ -24,7 +24,7 @@ To use Rails 3.x / Refinery 2.0.x use the [refinerycms-image_slideshows "Refiner
 Open up your ``Gemfile`` and add at the bottom this line:
 
 ```ruby
-gem 'refinerycms-image_slideshows', git: 'https://github.com/bisscomm/refinerycms-image-slideshows', branch: 'master'
+gem 'refinerycms-image_slideshows', git: 'https://github.com/mido18/refinerycms-image-slideshows' , :branch => '2-0-stable'
 ```
 
 Now, run ``bundle install``
