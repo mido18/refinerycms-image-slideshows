@@ -2,8 +2,8 @@ source "http://rubygems.org"
 
 gemspec
 
-gem 'refinerycms', '~> 2.0.3'
-gem 'refinerycms-i18n', '~> 2.0.2'
+gem 'refinerycms', '~> 2.1.0'
+gem 'refinerycms-i18n', '~> 2.1.0'
 
 # Database Configuration
 platforms :jruby do
@@ -20,7 +20,7 @@ platforms :ruby do
 end
 
 group :development, :test do
-  gem 'refinerycms-testing', '~> 2.0.3'
+  gem 'refinerycms-testing', '~> 2.1.0'
   gem 'guard-rspec', '~> 0.7.0'
 
   platforms :mswin, :mingw do
