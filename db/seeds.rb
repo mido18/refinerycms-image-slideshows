@@ -1,5 +1,5 @@
-(Refinery.i18n_enabled? ? Refinery::I18n.frontend_locales : [:en]).each do |lang|
-  I18n.locale = lang
+#(Refinery.i18n_enabled? ? Refinery::I18n.frontend_locales : [:en]).each do |lang|
+  I18n.locale = :en
 
   if defined?(Refinery::User)
     Refinery::User.all.each do |user|
@@ -10,10 +10,10 @@
     end
   end
 
-end
+#end
 
-(Refinery.i18n_enabled? ? Refinery::I18n.frontend_locales : [:en]).each do |lang|
-  I18n.locale = lang
+#(Refinery.i18n_enabled? ? Refinery::I18n.frontend_locales : [:en]).each do |lang|
+  I18n.locale = :en
 
   if defined?(Refinery::User)
     Refinery::User.all.each do |user|
@@ -24,4 +24,4 @@ end
     end
   end
 
-end
+#end
